@@ -30,11 +30,10 @@ const MacBookPro16TwoPage = () => {
                 alt="arrowright"
               />
               <div className="flex flex-col items-start justify-start sm:ml-[0] ml-[7px] w-[13%] sm:w-full">
-                <span
-                  href="javascript:"
-                  className= "text-base text-black-900"
-                >
-                  <Link to="/MacBookPro16one" size="txtCOCOGOOSEDemiBold16">Login</Link>
+                <span href="javascript:" className="text-base text-black-900">
+                  <Link to="/MacBookPro16one" size="txtCOCOGOOSEDemiBold16">
+                    Login
+                  </Link>
                 </span>
                 <div className="bg-blue-800 h-px w-[72%]"></div>
               </div>
@@ -59,16 +58,25 @@ const MacBookPro16TwoPage = () => {
               neque et felis bibendum varius.
             </Text>
             <div className="flex flex-col font-sourcesanspro items-start justify-start md:ml-[0] ml-[107px] mt-[29px] w-[73%] md:w-full">
-              <FloatingInput
-                wrapClassName="placeholder:bg-gray-100 font-semibold placeholder:left-[18px] p-0 sm:pr-5 placeholder:text-black-900 text-center text-gray-500 text-sm placeholder:top-[0] w-full"
-                className="font-semibold p-0 sm:pr-5 text-center text-gray-500 text-sm w-full"
-                name="usernameoremail"
-                labelClasses="bg-gray-100 left-[18px] top-[0] text-black-900"
-                focusedClasses="translate-y-[22px] scale-[1]"
-                wrapperClasses="w-full top-[0]"
-                labelText="Username"
-                defaultText="Username or Email..."
-              ></FloatingInput>
+              <div className="h-[73px] md:h-[90px] mt-7 relative w-full">
+                <div className="absolute bottom-[0] md:h-[62px] h-[66px] inset-x-[0] mx-auto w-full">
+                  <div className="absolute bg-gray-100 border border-gray-400 border-solid flex flex-col h-max inset-[0] items-start justify-center m-auto p-[17px] rounded w-full">
+                    <Text
+                      className="my-[5px] text-center text-gray-500 text-sm"
+                      size="txtSourceSansProSemiBold14Gray500"
+                    >
+                      Username or Email...
+                    </Text>
+                  </div>
+                  <div className="absolute bg-gray-100 h-[7px] left-[4%] top-[0] w-[28%]"></div>
+                </div>
+                <Text
+                  className="absolute left-[12%] text-black-900 text-center text-sm top-[0]"
+                  size="txtSourceSansProSemiBold14Black900"
+                >
+                  Email
+                </Text>
+              </div>
               <div className="h-[73px] md:h-[90px] mt-7 relative w-full">
                 <div className="absolute bottom-[0] md:h-[62px] h-[66px] inset-x-[0] mx-auto w-full">
                   <div className="absolute bg-gray-100 border border-gray-400 border-solid flex flex-col h-max inset-[0] items-start justify-center m-auto p-[17px] rounded w-full">
@@ -131,7 +139,7 @@ const MacBookPro16TwoPage = () => {
                   />
                 </div>
                 <Text
-                  className= "text-center text-sm text-white-A700"
+                  className="text-center text-sm text-white-A700"
                   size="txtSourceSansProSemiBold14WhiteA700"
                 >
                   Sign in with Google

@@ -63,28 +63,44 @@ const MacBookPro16OnePage = () => {
               neque et felis bibendum varius.
             </Text>
             <div className="flex flex-col font-sourcesanspro items-center justify-start md:ml-[0] ml-[47px] mt-[29px] w-[76%] md:w-full">
-              <FloatingInput
-                wrapClassName="placeholder:bg-gray-100 font-semibold placeholder:left-[18px] p-0 sm:pr-5 placeholder:text-black-900 text-center text-gray-500 text-sm placeholder:top-[0] w-full"
-                className="font-semibold p-0 sm:pr-5 text-center text-gray-500 text-sm w-full"
-                name="email" // Thêm thuộc tính name để xác định ô input
-                labelClasses="bg-gray-100 left-[18px] top-[0] text-black-900"
-                focusedClasses="translate-y-[22px] scale-[1]"
-                wrapperClasses="w-full top-[0]"
-                labelText="Email" // Thay đổi nội dung nhãn
-                defaultText="Enter your email..." // Thay đổi placeholder
-              />
-
-              <FloatingInput
-                wrapClassName="placeholder:bg-gray-100 font-semibold placeholder:left-[18px] p-0 sm:pr-5 placeholder:text-black-900 text-center text-gray-500 text-sm placeholder:top-[0] w-full"
-                className="font-semibold p-0 sm:pr-5 text-center text-gray-500 text-sm w-full"
-                name="password" // Thêm thuộc tính name để xác định ô input
-                labelClasses="bg-gray-100 left-[18px] top-[0] text-black-900"
-                focusedClasses="translate-y-[22px] scale-[1]"
-                wrapperClasses="w-full top-[0]"
-                labelText="Password" // Thay đổi nội dung nhãn
-                defaultText="**********" // Thay đổi placeholder
-              />
-
+              <div className="h-[73px] md:h-[89px] mt-[27px] relative w-full">
+                <div className="absolute bottom-[0] md:h-[62px] h-[66px] inset-x-[0] mx-auto w-full">
+                  <div className="absolute bg-gray-100 border border-gray-400 border-solid flex flex-col h-max inset-[0] items-start justify-center m-auto p-[17px] rounded w-full">
+                    <Text
+                      className="my-[5px] text-center text-gray-500 text-sm"
+                      size="txtSourceSansProSemiBold14Gray500"
+                    >
+                      Username or Email...
+                    </Text>
+                  </div>
+                  <div className="absolute bg-gray-100 h-[7px] left-[4%] top-[0] w-[28%]"></div>
+                </div>
+                <Text
+                  className="absolute left-[12%] text-black-900 text-center text-sm top-[0]"
+                  size="txtSourceSansProSemiBold14Black900"
+                >
+                  Email
+                </Text>
+              </div>
+              <div className="h-[73px] md:h-[89px] mt-[27px] relative w-full">
+                <div className="absolute bottom-[0] md:h-[62px] h-[66px] inset-x-[0] mx-auto w-full">
+                  <div className="absolute bg-gray-100 border border-gray-400 border-solid flex flex-col h-max inset-[0] items-start justify-center m-auto p-[17px] rounded w-full">
+                    <Text
+                      className="my-[5px] text-center text-gray-500 text-sm"
+                      size="txtSourceSansProSemiBold14Gray500"
+                    >
+                      ******************
+                    </Text>
+                  </div>
+                  <div className="absolute bg-gray-100 h-[7px] left-[4%] top-[0] w-[28%]"></div>
+                </div>
+                <Text
+                  className="absolute left-[12%] text-black-900 text-center text-sm top-[0]"
+                  size="txtSourceSansProSemiBold14Black900"
+                >
+                   Password
+                </Text>
+              </div>
               <div className="flex flex-row items-start justify-between mt-[17px] w-[96%] md:w-full">
                 <CheckBox
                   className="font-semibold text-center text-sm"

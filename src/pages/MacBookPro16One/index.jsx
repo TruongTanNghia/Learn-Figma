@@ -66,12 +66,11 @@ const MacBookPro16OnePage = () => {
               <div className="h-[73px] md:h-[89px] mt-[27px] relative w-full">
                 <div className="absolute bottom-[0] md:h-[62px] h-[66px] inset-x-[0] mx-auto w-full">
                   <div className="absolute bg-gray-100 border border-gray-400 border-solid flex flex-col h-max inset-[0] items-start justify-center m-auto p-[17px] rounded w-full">
-                    <Text
-                      className="my-[5px] text-center text-gray-500 text-sm"
+                  <input
+                      className="absolute bg-gray-100 border border-gray-400 border-solid flex flex-col h-max inset-[0] items-start justify-center m-auto p-[17px] rounded w-full"
                       size="txtSourceSansProSemiBold14Gray500"
-                    >
-                      Username or Email...
-                    </Text>
+                      placeholder=" Username or Email..."
+                    />
                   </div>
                   <div className="absolute bg-gray-100 h-[7px] left-[4%] top-[0] w-[28%]"></div>
                 </div>
@@ -85,12 +84,11 @@ const MacBookPro16OnePage = () => {
               <div className="h-[73px] md:h-[89px] mt-[27px] relative w-full">
                 <div className="absolute bottom-[0] md:h-[62px] h-[66px] inset-x-[0] mx-auto w-full">
                   <div className="absolute bg-gray-100 border border-gray-400 border-solid flex flex-col h-max inset-[0] items-start justify-center m-auto p-[17px] rounded w-full">
-                    <Text
-                      className="my-[5px] text-center text-gray-500 text-sm"
+                  <input
+                      className="absolute bg-gray-100 border border-gray-400 border-solid flex flex-col h-max inset-[0] items-start justify-center m-auto p-[17px] rounded w-full"
                       size="txtSourceSansProSemiBold14Gray500"
-                    >
-                      ******************
-                    </Text>
+                      placeholder="*************"
+                    />
                   </div>
                   <div className="absolute bg-gray-100 h-[7px] left-[4%] top-[0] w-[28%]"></div>
                 </div>

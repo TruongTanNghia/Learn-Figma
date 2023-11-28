@@ -2,15 +2,20 @@ import Logo from "../../../public/images/Logo.png";
 import LogoFacebook from "../../../public/images/facebook-2-logo-png-transparent-1.png";
 import Line from "../../../public/images/line-14.svg";
 import LogoGoogle from "../../../public/images/google-g-logo-1.png";
+import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <>
       <div className="w-full h-screen flex justify-center items-center">
         <div className="w-[689px] h-[699px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
           <div className="absolute ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
-            <span className="w-[52px] inline-block border-b-2 border-sky-600 text-[16px]">
+            <Link
+              to="/register"
+              className="w-[52px] inline-block border-b-2 border-sky-600 text-[16px]"
+            >
               Register
-            </span>
+            </Link>
             <div className=" ml-[68px] mt-[6px] w-[18px] h-[18px] absolute">
               <div className="w-[18px] h-[18px] mt-[3px] left-0 top-0 absolute">
                 <img src={Line} alt="Error" className="" />

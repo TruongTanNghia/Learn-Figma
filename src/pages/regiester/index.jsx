@@ -6,17 +6,17 @@ import { Link } from "react-router-dom";
 const RegisterPage = () => {
   return (
     <>
-      <div className= "w-[1728] h-[1117] flex justify-center items-center">
-        <div className="w-[689px] h-[792px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+      <div className="w-[1728] h-[1117] flex justify-center items-center">
+        <div className="w-[689px] h-[792px] max-sm:w-[298px] max-sm:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
           <div className=" ml-[10px] mt-[15px] w-[18px] h-[18px] absolute">
             <div className="w-[18px] h-[18px] mt-[3px] left-0 top-0 absolute">
               <img src={Line} alt="Error" className="rotate-180" />
             </div>
           </div>
-          <div className="absolute ml-[35px] mt-[11px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
+          <div className="max-md:absolute absolute ml-[35px] mt-[11px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
             <Link
               to="/login"
-              className="w-[36px] inline-block border-b-2 border-sky-600 text-[16px]"
+              className="max-md:absolute max-md:text-[16px] w-[36px] inline-block border-b-2 border-sky-600 font-semibold text-[16px]"
             >
               Login
             </Link>
@@ -24,39 +24,67 @@ const RegisterPage = () => {
 
           <div className="pt-[27px] ">
             <div className="flex flex-col items-center">
-              <img className="w-[151px] h-[126px] mb-[29px]" src={Logo} />
-              <div className="text-black text-4xl font-semibold font-['COCOGOOSE']">
+              <img
+                className="w-[151px] h-[126px] max-md:w-[110px] max-md:h-[92px] max-sm:mt-[60px] max-sm:mb-[11px] mb-[29px]"
+                src={Logo}
+              />
+              <div className="text-black max-md:w-[135px] max-md:h[32px] max-md:ml-[115px] max-md:mr-[81px] max-md:h-[32px] max-md:text-[32px] text-4xl font-semibold font-['COCOGOOSE']">
                 bylogin
               </div>
 
-              <div className="h-[42px] pl-[70px] pr-[69px] pt-[22px]">
-                <p className="w-[550px] top-0 left-0 [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-[#707070] text-[14px] text-center leading-[15.1px]">
+              <div className="h-[42px] max-md:h-[113px] max-md:mr-[26px] max-md:ml-[32px] max-md:pt-[5px] pl-[70px] pr-[69px] pt-[22px]">
+                <p className="w-[550px] max-md:w-[240px] top-0 left-0 [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-[#707070] max-sm:text-[#717171] text-[14px] text-center leading-[15.1px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   ac tortor volutpat, vulputate massa non, feugiat tellus. Proin
                   ac neque et felis bibendum varius.
                 </p>
               </div>
-             <div className="pt-[37px] pl-[117px] pr-[129px] relative">
-                <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
-                  <input className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4" placeholder="Username or Email..." />
-                 <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
-                  <label className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2" htmlFor="username">UserName</label>
-                </div>
-              </div>
-
-                <div className="pt-[37px] pl-[117px] pr-[129px] relative">
-                <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
-                  <input  className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4" placeholder="*******************" />
-                 <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
-                  <label className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none" htmlFor="password">Password</label>
+              <div className="pt-[37px] pl-[117px] pr-[129px] relative">
+                <div className="w-[443px] h-[64px] max-md:w-[264.569px] max-md:flex-shrink-0 max-md:pt-[10px] max-md:h-[38.222px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
+                  <input
+                    className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
+                    placeholder="Username or Email..."
+                  />
+                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <label
+                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2"
+                    htmlFor="username"
+                  >
+                    UserName
+                  </label>
                 </div>
               </div>
 
               <div className="pt-[37px] pl-[117px] pr-[129px] relative">
                 <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
-                  <input type="password" className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4" placeholder="*********************" />
-                 <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
-                  <label className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none" htmlFor="password">Re-Password</label>
+                  <input
+                    className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
+                    placeholder="*******************"
+                  />
+                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <label
+                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    htmlFor="password"
+                  >
+                    Password
+                  </label>
+                </div>
+              </div>
+
+              <div className="pt-[37px] pl-[117px] pr-[129px] relative">
+                <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
+                  <input
+                    type="password"
+                    className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
+                    placeholder="*********************"
+                  />
+                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <label
+                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    htmlFor="password"
+                  >
+                    Re-Password
+                  </label>
                 </div>
               </div>
             </div>

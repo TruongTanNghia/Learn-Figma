@@ -2,12 +2,17 @@ import Logo from "../../../public/images/Logo.png";
 import LogoFacebook from "../../../public/images/facebook-2-logo-png-transparent-1.png";
 import Line from "../../../public/images/line-14.svg";
 import LogoGoogle from "../../../public/images/google-g-logo-1.png";
+import ImageRegister from "../../../public/images/register.png";
 import { Link } from "react-router-dom";
 const RegisterPage = () => {
   return (
     <>
-      <div className="w-[1728] h-[1117] flex justify-center items-center">
-        <div className="w-[689px] h-[792px] max-md:w-[298px] max-md:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+      <div className="w-[1728px] h-[1117px] flex justify-center items-center">
+        <div className="relative w-[689px] h-[792px] max-md:w-[298px] max-md:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+          <img
+            className="absolute w-[457px] h-[472px] top-[10px] right-[-300px] -z-[1]"
+            src={ImageRegister}
+          />
           <div className=" ml-[10px] mt-[15px] w-[18px] h-[18px] absolute">
             <div className="w-[18px] h-[18px] mt-[3px] left-0 top-0 absolute">
               <img src={Line} alt="Error" className="rotate-180" />

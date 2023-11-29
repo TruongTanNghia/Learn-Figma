@@ -2,13 +2,18 @@ import Logo from "../../../public/images/Logo.png";
 import LogoFacebook from "../../../public/images/facebook-2-logo-png-transparent-1.png";
 import Line from "../../../public/images/line-14.svg";
 import LogoGoogle from "../../../public/images/google-g-logo-1.png";
+import Underound from "../../../public/images/Login.png";
 import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
     <>
-      <div className="w-[1728] h-[1117] flex justify-center items-center">
-        <div className="w-[689px] h-[699px] max-sm:w-[298px] max-sm:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+      <div className="w-[1728px] h-[1117px] flex justify-center items-center">
+        <div className="relative w-[689px] h-[699px] max-sm:w-[298px] max-sm:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+          <img
+            className="absolute w-[285px] top-[10px] left-[-187px] -z-[1] "
+            src={Underound}
+          />
           <div className="max-md:absolute absolute max-sm:ml-[200px] ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
             <Link
               to="/register"

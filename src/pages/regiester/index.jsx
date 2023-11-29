@@ -39,51 +39,50 @@ const RegisterPage = () => {
                   ac neque et felis bibendum varius.
                 </p>
               </div>
-              <div className="pt-[37px] pl-[117px] pr-[129px] relative">
-                <div className="w-[443px] h-[64px] max-md:w-[264.569px] max-md:flex-shrink-0 max-md:pt-[10px] max-md:h-[38.222px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
+              <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[-50px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
                     placeholder="Username or Email..."
                   />
-                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
                   <label
-                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2"
+                    className="max-md:absolute absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
                     htmlFor="username"
                   >
-                    UserName
+                   USERNAME
                   </label>
                 </div>
               </div>
 
-              <div className="pt-[37px] pl-[117px] pr-[129px] relative">
-                <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
+               <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[-20px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
-                    placeholder="*******************"
+                    placeholder="********************************"
                   />
-                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
                   <label
-                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
-                    htmlFor="password"
+                    className="max-md:absolute absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    htmlFor="username"
                   >
-                    Password
+                   PASSWORD
                   </label>
                 </div>
               </div>
 
-              <div className="pt-[37px] pl-[117px] pr-[129px] relative">
-                <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
+               <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[-10px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
-                    type="password"
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
-                    placeholder="*********************"
+                    placeholder="********************************"
                   />
-                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
                   <label
-                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
-                    htmlFor="password"
+                    className="max-md:absolute absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    htmlFor="username"
                   >
-                    Re-Password
+                   RE-PASSWORD
                   </label>
                 </div>
               </div>

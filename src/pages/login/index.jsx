@@ -9,7 +9,7 @@ const Login = () => {
     <>
       <div className="w-[1728] h-[1117] flex justify-center items-center">
         <div className="w-[689px] h-[699px] max-sm:w-[298px] max-sm:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
-          <div className="max-md:absolute absolute ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
+          <div className="max-md:absolute absolute max-sm:ml-[200px] ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
             <Link
               to="/register"
               className="max-md:absolute max-md:text-[16px] w-[52px] inline-block border-b-2 border-sky-600 text-[16px]"
@@ -37,42 +37,40 @@ const Login = () => {
                   ac neque et felis bibendum varius.
                 </p>
               </div>
-              <div className="pt-[37px] pl-[117px] pr-[129px] relative">
-                <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
+              <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[30px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
                     placeholder="Username or Email..."
                   />
-                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
                   <label
-                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    className="max-md:absolute absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
                     htmlFor="username"
                   >
-                    UserName
+                   USERNAME
                   </label>
                 </div>
               </div>
-              <div className="pt-[37px] pl-[117px] pr-[129px] relative">
-                <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
+               <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-1 max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
-                    type="password"
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
-                    placeholder="*********************"
+                    placeholder="**********************"
                   />
-                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
                   <label
-                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    className="max-md:absolute absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
                     htmlFor="username"
                   >
-                    Password
+                    PASSWORD
                   </label>
                 </div>
               </div>
             </div>
-
             <div className="flex flex-row pt-[19px] pl-[130px] w-[96%]">
               <input
-                className="w-[16px] h-[16px] bg-neutral-100 border border-zinc-400"
+                className=" w-[16px] h-[16px] bg-neutral-100 border border-zinc-400"
                 type="checkbox"
               />
               <div className="ml-[5px] [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-black text-[14px] text-center tracking-[0] leading-[15.1px] whitespace-nowrap">

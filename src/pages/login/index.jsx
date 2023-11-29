@@ -58,6 +58,7 @@ const Login = () => {
               <div className="pt-[37px] pl-[117px] pr-[129px] max-md:pt-[19.78px] relative max-md:relative">
                 <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
+                    type = "password"
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
                     placeholder="**********************"
                   />

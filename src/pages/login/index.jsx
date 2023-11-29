@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <>
-      <div className="w-full h-screen flex justify-center items-center">
+      <div className= "w-[1728] h-[1117] flex justify-center items-center">
         <div className="w-[689px] h-[699px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
           <div className="absolute ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
             <Link

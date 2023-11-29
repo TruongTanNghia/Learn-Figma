@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const RegisterPage = () => {
   return (
     <>
-      <div className="w-full h-screen flex justify-center items-center">
+      <div className= "w-[1728] h-[1117] flex justify-center items-center">
         <div className="w-[689px] h-[792px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
           <div className=" ml-[10px] mt-[15px] w-[18px] h-[18px] absolute">
             <div className="w-[18px] h-[18px] mt-[3px] left-0 top-0 absolute">
@@ -46,7 +46,7 @@ const RegisterPage = () => {
 
                 <div className="pt-[37px] pl-[117px] pr-[129px] relative">
                 <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
-                  <input type="password" className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4" placeholder="*******************" />
+                  <input  className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4" placeholder="*******************" />
                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
                   <label className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none" htmlFor="password">Password</label>
                 </div>

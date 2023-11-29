@@ -8,11 +8,11 @@ const Login = () => {
   return (
     <>
       <div className="w-[1728] h-[1117] flex justify-center items-center">
-        <div className="w-[689px] h-[699px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
-          <div className="absolute ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
+        <div className="w-[689px] h-[699px] max-sm:w-[298px] max-sm:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+          <div className="max-md:absolute absolute ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
             <Link
               to="/register"
-              className="w-[52px] inline-block border-b-2 border-sky-600 text-[16px]"
+              className="max-md:absolute max-md:text-[16px] w-[52px] inline-block border-b-2 border-sky-600 text-[16px]"
             >
               Register
             </Link>
@@ -31,7 +31,7 @@ const Login = () => {
               </div>
 
               <div className="h-[42px] pl-[70px] pr-[69px] pt-[22px]">
-                <p className="w-[550px] top-0 left-0 [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-[#707070] text-[14px] text-center leading-[15.1px]">
+                <p className="w-[550px] max-md:w-[240px] top-0 left-0 [font-family:'Source_Sans_Pro-SemiBold',Helvetica] font-semibold text-[#707070] text-[14px] text-center leading-[15.1px]">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                   ac tortor volutpat, vulputate massa non, feugiat tellus. Proin
                   ac neque et felis bibendum varius.

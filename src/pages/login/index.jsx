@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <>
-      <div className= "w-[1728] h-[1117] flex justify-center items-center">
+      <div className="w-[1728] h-[1117] flex justify-center items-center">
         <div className="w-[689px] h-[699px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
           <div className="absolute ml-[557px] mt-[19px] flex flex-row text-black text-base font-semibold font-COCOGOOSE">
             <Link
@@ -39,16 +39,33 @@ const Login = () => {
               </div>
               <div className="pt-[37px] pl-[117px] pr-[129px] relative">
                 <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
-                  <input className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4" placeholder="Username or Email..." />
-                 <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
-                  <label className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none" htmlFor="username">UserName</label>
+                  <input
+                    className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
+                    placeholder="Username or Email..."
+                  />
+                  <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <label
+                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    htmlFor="username"
+                  >
+                    UserName
+                  </label>
                 </div>
               </div>
               <div className="pt-[37px] pl-[117px] pr-[129px] relative">
                 <div className="w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative">
-                  <input type="password" className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4" placeholder="*********************" />
-                 <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
-                  <label className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none" htmlFor="username">Password</label>
+                  <input
+                    type="password"
+                    className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
+                    placeholder="*********************"
+                  />
+                  <div className="absolute bg-neutral-100 h-[7px] left-[12%] top-[0] w-[112px]"></div>
+                  <label
+                    className="absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    htmlFor="username"
+                  >
+                    Password
+                  </label>
                 </div>
               </div>
             </div>

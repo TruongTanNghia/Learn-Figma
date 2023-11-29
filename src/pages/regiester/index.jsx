@@ -7,7 +7,7 @@ const RegisterPage = () => {
   return (
     <>
       <div className="w-[1728] h-[1117] flex justify-center items-center">
-        <div className="w-[689px] h-[792px] max-sm:w-[298px] max-sm:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
+        <div className="w-[689px] h-[792px] max-md:w-[298px] max-md:h-[698px] bg-neutral-100 rounded-2xl border border-black border-opacity-25">
           <div className=" ml-[10px] mt-[15px] w-[18px] h-[18px] absolute">
             <div className="w-[18px] h-[18px] mt-[3px] left-0 top-0 absolute">
               <img src={Line} alt="Error" className="rotate-180" />
@@ -22,10 +22,10 @@ const RegisterPage = () => {
             </Link>
           </div>
 
-          <div className="pt-[27px] ">
+          <div className="pt-[27px] max-md:pt-[60px]">
             <div className="flex flex-col items-center">
               <img
-                className="w-[151px] h-[126px] max-md:w-[110px] max-md:h-[92px] max-sm:mt-[60px] max-sm:mb-[11px] mb-[29px]"
+                className="w-[151px] h-[126px] max-md:w-[110px] max-md:h-[92px] max-sm:mb-[11px] mb-[29px]"
                 src={Logo}
               />
               <div className="text-black max-md:w-[135px] max-md:h[32px] max-md:ml-[115px] max-md:mr-[81px] max-md:h-[32px] max-md:text-[32px] text-4xl font-semibold font-['COCOGOOSE']">
@@ -40,55 +40,55 @@ const RegisterPage = () => {
                 </p>
               </div>
               <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
-                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[-50px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[-40px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
                     placeholder="Username or Email..."
                   />
                   <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
                   <label
-                    className="max-md:absolute absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    className="max-md:absolute max-md:text-[10px] absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
                     htmlFor="username"
                   >
-                   USERNAME
+                    Username
                   </label>
                 </div>
               </div>
 
-               <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
-                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[-20px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
+              <div className="pt-[37px] pl-[117px] max-md:pt-[19.78px] pr-[129px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
                     placeholder="********************************"
                   />
                   <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
                   <label
-                    className="max-md:absolute absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    className="max-md:absolute max-md:text-[10px] absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
                     htmlFor="username"
                   >
-                   PASSWORD
+                    Password
                   </label>
                 </div>
               </div>
 
-               <div className="pt-[37px] pl-[117px] pr-[129px] relative max-md:relative">
-                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:mt-[-10px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
+              <div className="pt-[37px] pl-[117px] max-md:pt-[19.78px] pr-[129px] relative max-md:relative">
+                <div className="max-sm:w-[264.57px] max-sm:h-[38.22px] max-sm:ml-5 w-[443px] h-[64px] top-0 left-0 bg-neutral-100 rounded-[4px]  relative max-md:relative">
                   <input
                     className="w-full h-full rounded-[4px] border border-solid border-[#b6b6b6] pl-4"
                     placeholder="********************************"
                   />
                   <div className="absolute bg-white h-[7px] left-[12%] top-[0] w-[112px] max-md:absolute"></div>
                   <label
-                    className="max-md:absolute absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
+                    className="max-md:absolute max-md:text-[10px] absolute top-[-15%] left-[12%] text-center text-black font-semibold font-['Source Sans Pro' text-sm px-2 leading-none"
                     htmlFor="username"
                   >
-                   RE-PASSWORD
+                    Re-Password
                   </label>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-row pt-[19px] pl-[130px] w-[96%]">
+            <div className="flex flex-row max-md:pl-[30px] max-md:pt-[34px] pt-[19px] pl-[130px] w-[96%]">
               <input
                 className="w-[16px] h-[16px] bg-neutral-100 border border-zinc-400"
                 type="checkbox"
@@ -97,15 +97,13 @@ const RegisterPage = () => {
                 Terms Of Use
               </div>
             </div>
-            <div className="pt-[17px] pr-[129px] pl-[129px]">
-              <button className="w-[435px] h-[46px] top-0 left-0 bg-[#1979bb] rounded-[50px] text-white">
+            <div className="pt-[17px] pr-[129px] pl-[129px] max-md:pl-[22px] max-md:pt-[20px] ">
+              <button className="w-[435px] h-[46px] max-md:h-[27px] max-md:w-[254px] top-0 left-0 bg-[#1979bb] rounded-[50px] text-white">
                 Register
               </button>
             </div>
-            <div className="flex flex-row">
-              <div className="pl-[100px] pt-[25px] pb-[47px] pr-4 flex">
-                {" "}
-                {/* Thêm lớp 'pr-4' để giảm padding bên phải */}
+            <div className="flex flex-row max-md:flex-col">
+              <div className="pl-[100px] pt-[25px] pb-[47px] max-md:pl-[38px] max-md:pt-[28px] max-md:pr-[30px] max-md:pb-[0px] pr-4 flex">
                 <div className="w-[230px] h-[44px] top-0 left-0 bg-[#4285f4] ">
                   <div className="absolute pt-[14px] pr-[43px] pl-[71px] font-semibold text-white text-[14px] text-center tracking-[0] leading-[15.1px] whitespace-nowrap">
                     Sign in with Google
@@ -124,7 +122,7 @@ const RegisterPage = () => {
                 </div>
               </div>
 
-              <div className=" pt-[25px] pl-[14px] pr-[144px] pb-[47px]">
+              <div className=" pt-[25px] pl-[14px] pr-[144px] max-md:pt-[17px] pb-[47px] max-md:pl-[38px] max-md:pr-[30px]">
                 <div className="w-[230px] h-[44px] top-0 left-0 bg-[#4285f4] ">
                   <div className="absolute pt-[14px] pr-[43px] pl-[71px] font-semibold text-white text-[14px] text-center tracking-[0] leading-[15.1px] whitespace-nowrap">
                     Sign in with Facebook
